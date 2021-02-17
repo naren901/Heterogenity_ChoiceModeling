@@ -1,7 +1,7 @@
 # Random effects model
 
 # Liquid detergents dataset
-ld = read.table("D://Personal//gauss_programs//prakhyasir_rep//detxmat6.asc")
+ld = read.table("detxmat6.asc")
 # The data is in long format - we reshape it to a wide format
 reshape_data = function(x){
   start_ind = (x[[1]][1]-1)*6+1
